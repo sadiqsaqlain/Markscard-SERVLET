@@ -34,7 +34,7 @@ public class createlecture extends HttpServlet{
 	    
 		Lectures lid= ll.insert(l);
 		
-		resp.getWriter().print("Account has been created Succesfully");
+		resp.getWriter().print("<h2>Account has been created Succesfully Please Wait for the Admin to Approve it</h2>");
 		
 		req.getRequestDispatcher("created.jsp").include(req, resp);;
 		
