@@ -41,6 +41,10 @@
             <div class="login-button">
                 <button type="submit" class="btn btn-primary">Login</button>
             </div>
+            
+            <div class="login-button">
+<a href="createlecture.jsp">Create Account</a>                   
+            </div>
         </form>
     </div>
 

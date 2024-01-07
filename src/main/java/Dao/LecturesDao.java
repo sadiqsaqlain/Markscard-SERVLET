@@ -43,4 +43,11 @@ public List<Lectures> fetchall()
 	List<Lectures> l= q.getResultList();
 	return l;
 }
+
+public void delete(Lectures l)
+{
+	et.begin();
+	em.remove(l);
+	et.commit();
+}
 }

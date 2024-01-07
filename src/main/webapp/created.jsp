@@ -1,5 +1,5 @@
-
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,58 +10,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Create</title>
+    <title>Hello, world!</title>
   </head>
   <body>
   <div class="container mt-5">
-    <h1 class="text-center">Create Account</h1>
-<form action="createlecture" method="post"> 
+    <h1 class="text-center"><%request.getAttribute("success"); %></h1>
 
-
-
-<div class="form-group">
-    <label for="exampleDropdownFormEmail2">Name</label>
-    <input type="text" class="form-control" id="exampleDropdownFormEmail2"  name="name">
-  </div>
-  
-  
-  
-
-<div class="form-group">
-    <label for="exampleDropdownFormEmail2">Email address</label>
-    <input type="email" class="form-control" id="exampleDropdownFormEmail2"  name="email">
-  </div>
-  
-  
-  <div class="form-group">
-    <label for="exampleDropdownFormPassword2">Password</label>
-    <input type="password" class="form-control" id="exampleDropdownFormPassword2"  name="pwd">
-  </div>
-
-
-<div class="form-group">
-    <label for="exampleDropdownFormEmail2">Mobile</label>
-    <input type="number" class="form-control" id="exampleDropdownFormEmail2"  name="mob">
-  </div>
-
-
-
-<div class="form-group">
-    <label for="exampleDropdownFormEmail2">LOC/DEPT</label>
-    <input type="text" class="form-control" id="exampleDropdownFormEmail2"  name="loc">
-  </div>
-
-
-
-<div class="container text-center">
-    <button class="btn btn-success" type="submit">Sign Up</button>
-  </div>
-
-
-
-
-
-</form>
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

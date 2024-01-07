@@ -37,6 +37,8 @@
                                         <th>Mobile</th>
                                         <th>Status</th>
                                         <th>Change_Status</th>
+                                        <th>Delete</th>
+                                        
                     
                 </tr>
             </thead>
@@ -51,6 +53,8 @@
 <td><%=ll.getMob()%></td>
 <td><%=ll.isStatus() %></td>
 <td><a href="changestatus?email=<%=ll.getEmail()%>">change</a></td>
+<td><a href="deletelecture?email=<%=ll.getEmail()%>">Delete</a></td>
+
 </tr>
 
 <%} %>
